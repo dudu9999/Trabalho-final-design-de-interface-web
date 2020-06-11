@@ -1,0 +1,14 @@
+Muçarela  = R$ 63,80
+Calabresa = R$ 63,80
+Portuguesa = R$ 67,70
+Presunto = R$ 63,80
+Supreme = R$ 71,60
+Corn & Bacon = R$ 71,60
+Vegetariana = R$ 67,70
+Frango com Requeijão Cremoso = R$ 67,70
+Americana = R$ 71,60
+Coreana = R$ 71,60
+Pepperoni = R$ 71,60
+Brasileira = R$ 71,60
+4 Queijos = R$ 67,70
+

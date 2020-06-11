@@ -1,0 +1,10 @@
+Coca-Cola Lata = R$ 5,70
+Coca-Cola Zero Lata = R$ 5,70
+Coca-Cola 2L = R$ 9,00
+Sprite Lata = R$ 5,70
+Água sem Gás - 500 ML = R$ 4,60
+Água com Gás - 500 ML = R$ 4,60
+Cerveja Heineken Lata = R$ 7,60
+Fanta Guaraná 2L = R$ 9,00
+Fanta Guaraná Lata = R$ 5,70
+Fanta Guaraná Zero Lata = R$ 5,70

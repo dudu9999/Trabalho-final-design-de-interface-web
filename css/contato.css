@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body{
+    width: 100%;
+    height: 100%;
+    background-color: #e40404;
+    background-image: linear-gradient(180deg, #e40404 0%, #9a0914 15%, #000000 86%);
+
+}
+
+header{
+    width: 100%;
+    height: 110px;
+    padding-top: 10px;
+}
+
+nav{
+    width: 90%;
+    height: 70px;
+    float: right;
+
+}
+
+main{
+    width: 100%;
+    height: auto;
+
+}
+
+footer{
+    height: 150px;
+    width: 100%;
+    /* background-color: black; */
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+
+}
+
+main section{
+    width: 100%;
+    height: 100%;
+}
+
+main section.logo-main{
+    width: 50%;
+    height: 470px;
+    float: left;
+    margin-bottom: 55px;
+}
+
+main section.texto-main{
+    width: 50%;
+    height: 470px;
+    float: right;
+    text-align: center;
+    margin-bottom: 55px;
+
+}
+
+.texto-main h1{
+    font-size: 60px;
+    padding: 134px 0px 0px 0px;
+    color: white;
+}
+
+.texto-main h2{
+    font-size: 30px;
+    padding: 75px 0px 0px 0px;
+    color: white;
+}
+
+.img-logo{
+    width: 100px;
+    height: 100px; 
+    padding-left: 35px;
+}
+
+.li-img-logo{
+    padding: 0px;
+    width: 100px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    padding-top: 20px;
+    padding-right: 25px;
+}
+
+li{
+    display: inline-block;
+    padding: 0px 0px 0px 30px;
+}
+
+a{
+    text-decoration: none; 
+    color: white; 
+    font-size: 20px;
+}
+
+section.logo-main img{
+    width: 80%;
+    height: auto;
+}
+
+main section.mais-vendida-main{
+    width: 97%;
+    height: 320px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main section.mais-vendida-main img{
+    width: 15%;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mais-vendida-text{
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+
+    
+}
