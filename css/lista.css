@@ -165,7 +165,11 @@ main section.mais-vendida-main{
     padding-right: 20px;
 }
 
-main section.mais-vendida-main img{
+main section.mais-vendida-main .container-mais-vendidas{
+    padding-left: 4em;
+}
+
+main section.mais-vendida-main .container-mais-vendidas img{
     width: 15%;
     height: auto;
     padding-left: 20px;
