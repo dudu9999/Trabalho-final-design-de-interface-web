@@ -144,7 +144,20 @@ main{
     border-style: dotted;
     border-color: black;
     display: inline;
+    -ms-transform: rotate(-10deg);
 }
+
+.row .container-img:hover img{
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform 0.8s ease-in-out;
+    transition: transform 0.8s ease-in-out;
+}
+      
+.row .container-img:hover img{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
 .row .container-img h3{
     display: none;
 }

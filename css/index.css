@@ -42,6 +42,18 @@ main section.logo-main{
     margin-bottom: 55px;
 }
 
+.logo-main:hover img{
+    /* border-radius: 50%; */
+    -webkit-transition: -webkit-transform 0.8s ease-in-out;
+    transition: transform 0.8s ease-in-out;
+}
+      
+.logo-main:hover img{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
 main section.texto-main{
     width: 50%;
     height: 470px;
@@ -68,6 +80,7 @@ main section.texto-main{
     height: 100px; 
     padding-left: 35px;
 }
+
 
 .li-img-logo{
     padding: 0px;
