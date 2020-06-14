@@ -56,12 +56,11 @@ main section.logo-main{
 
 main section.texto-main{
     width: 50%;
-    height: 470px;
+    height: auto;
     float: right;
-    text-align: center;
     margin-bottom: 55px;
-
 }
+
 
 .texto-main h1{
     font-size: 60px;

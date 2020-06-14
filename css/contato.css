@@ -11,10 +11,18 @@
 
 }
 
+/* ---- header --------------------- */
+
 header{
     width: 100%;
     height: 110px;
     padding-top: 10px;
+}
+
+.img-logo{
+    width: 100px;
+    height: 100px; 
+    padding-left: 35px;
 }
 
 nav{
@@ -24,21 +32,14 @@ nav{
 
 }
 
+/* ---- Main ------------------ */
+
 main{
     width: 100%;
     height: auto;
 
 }
 
-footer{
-    height: 150px;
-    width: 100%;
-    /* background-color: black; */
-    text-align: center;
-    color: white;
-    padding-top: 50px;
-
-}
 
 main section{
     width: 100%;
@@ -54,30 +55,57 @@ main section.logo-main{
 
 main section.texto-main{
     width: 50%;
-    height: 470px;
+    height: auto;
     float: right;
-    text-align: center;
     margin-bottom: 55px;
-
 }
+
 
 .texto-main h1{
     font-size: 60px;
-    padding: 134px 0px 0px 0px;
     color: white;
 }
 
 .texto-main h2{
     font-size: 30px;
-    padding: 75px 0px 0px 0px;
     color: white;
 }
 
-.img-logo{
-    width: 100px;
-    height: 100px; 
-    padding-left: 35px;
+.informacoes-contato{
+    color: whitesmoke;
+    padding-bottom: 2em;
 }
+
+form h3{
+    color: white;
+}
+
+form  div{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+form  div input {
+    width: 80%;
+    /* background-color:  rgba(255, 0, 0, 0.1); */
+    background-color: transparent;
+    color: white;
+}
+
+form  div textarea{
+    width: 82%;
+    /* background-color:  rgba(255, 0, 0, 0.1); */
+    background-color: transparent;
+    color: white;
+}
+
+form  div.form-submit input{
+    width: 83%;
+    background-color: transparent;
+    color: white;
+}
+
+
 
 .li-img-logo{
     padding: 0px;
@@ -108,6 +136,8 @@ section.logo-main img{
     height: auto;
 }
 
+/* --- mais vendida ---------- */
+
 main section.mais-vendida-main{
     width: 97%;
     height: 320px;
@@ -131,6 +161,15 @@ main section.mais-vendida-main .container-mais-vendidas img{
     text-align: center;
     padding-bottom: 20px;
     color: white;
-
     
+    
+}
+
+/* ---- Footer ---- */
+footer{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
 }

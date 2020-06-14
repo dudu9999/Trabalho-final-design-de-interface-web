@@ -132,6 +132,14 @@ main{
     text-align: center;
 }
 
+.container-img{
+    transform:scale(1.1,1.1);
+}
+.container-img:hover{
+    background-color:white;
+    transform:scale(1.1,1.1);
+    color: red;
+}
 .row .container-img img {
     width: 90%;
     height: auto;
@@ -140,8 +148,8 @@ main{
 }
 
 #romulo{
-    height: 270px ;
-    width: auto;
+    width: 65%;
+    height: auto;
 }
 
 /* --------- mais-vendida- ------------ */
