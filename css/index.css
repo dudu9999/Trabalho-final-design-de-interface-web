@@ -14,7 +14,7 @@ nav{
     width: 90%;
     height: 70px;
     float: right;
-    
+
 }
 /* ----- body ---------- */
 .body{
@@ -27,7 +27,7 @@ nav{
 main{
     width: 100%;
     height: auto;
-    
+
 }
 
 main section{
@@ -43,11 +43,10 @@ main section.logo-main{
 }
 
 .logo-main:hover img{
-    /* border-radius: 50%; */
     -webkit-transition: -webkit-transform 0.8s ease-in-out;
     transition: transform 0.8s ease-in-out;
 }
-      
+
 .logo-main:hover img{
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -76,7 +75,7 @@ main section.texto-main{
 
 .img-logo{
     width: 100px;
-    height: 100px; 
+    height: 100px;
     padding-left: 35px;
 }
 
@@ -100,8 +99,8 @@ li{
 }
 
 a{
-    text-decoration: none; 
-    color: white; 
+    text-decoration: none;
+    color: white;
     font-size: 20px;
 }
 
@@ -110,11 +109,11 @@ section.logo-main img{
     height: auto;
 }
 
-.container-mais-vendidas ul { display: flex; margin: 0; padding: 0; overflow: hidden; }
+/* .container-mais-vendidas { display: flex; margin: 0; padding: 0; overflow: hidden; } */
 
-.container-mais-vendidas ul li { display: block; list-style: none; }
+/* .container-mais-vendidas { display: block; list-style: none; } */
 
-.container-mais-vendidas button.prev, button.next {
+/* .container-mais-vendidas .prev, .next {
     display: flex; font-size: 32px;
     align-items: center; justify-content: center;
     color: #FFF; background-color: #333;
@@ -126,7 +125,7 @@ section.logo-main img{
   }
 .container-mais-vendidas button.next {
     position: absolute; right: 0; top: 80px;
-  }
+  } */
 
 /* --- Mais vendidas --------- */
 main section.mais-vendida-main{
@@ -139,6 +138,7 @@ main section.mais-vendida-main{
 
 main section.mais-vendida-main .container-mais-vendidas{
     padding-left: 4em;
+    height: 12em;
 }
 
 main section.mais-vendida-main .container-mais-vendidas img{
@@ -151,7 +151,7 @@ main section.mais-vendida-main .container-mais-vendidas img{
 .mais-vendida-text{
     text-align: center;
     padding-bottom: 20px;
-    color: white;   
+    color: white;
 }
 
 /* --- Footer -------------------------- */

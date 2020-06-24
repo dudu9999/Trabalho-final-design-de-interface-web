@@ -24,7 +24,7 @@ nav{
 
 }
 
-main{
+.main{
     width: 100%;
     height: auto;
 
@@ -84,7 +84,7 @@ main section.texto-main{
 
 .img-logo{
     width: 100px;
-    height: 100px; 
+    height: 100px;
     padding-left: 35px;
 }
 
@@ -107,8 +107,8 @@ li{
 }
 
 a{
-    text-decoration: none; 
-    color: white; 
+    text-decoration: none;
+    color: white;
     font-size: 20px;
 }
 
@@ -140,6 +140,83 @@ main section.mais-vendida-main .container-mais-vendidas img{
     text-align: center;
     padding-bottom: 20px;
     color: white;
+}
+/* acordeon css  */
 
-    
+.container{
+    width: 90%;
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.accordion-item{
+    background-color: #9f0c17;
+    border-radius: .4rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: .5rem 2px .5rem rgba(0,0,0,.1);
+}
+
+.accordion-link{
+    font-size: 1.6rem;
+    color: rgba(255,255,255,.8);
+    text-decoration: none;
+    background-color: #9f0c17;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.accordion-link i{
+    color: #e7d5ff;
+    padding: .5rem;
+}
+
+.accordion-link .ion-md-remove{
+    display: none;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #c81926;
+    transition: max-height 650ms;
+}
+
+.answer::before{
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: 90%;
+    background-color: #8fc460;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.answer p{
+    color: rgba(255,255,255,.6);
+    font-size: 1.4rem;
+    padding: 2rem;
+}
+
+.accordion-item:target .answer{
+    max-height: 20rem;
+}
+
+.accordion-item:target .accordion-link .ion-md-add{
+    display: none;
+}
+
+.accordion-item:target .accordion-link .ion-md-remove{
+    display: block;
+}
+
+/* --------- iframe ------------------------------------------ */
+
+iframe{
+  padding-left: 2rem;
 }
