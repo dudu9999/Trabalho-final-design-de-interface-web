@@ -26,13 +26,13 @@ nav{
 
 .img-logo{
     width: 100px;
-    height: 100px; 
+    height: 100px;
     padding-left: 35px;
 }
 
 a{
-    text-decoration: none; 
-    color: white; 
+    text-decoration: none;
+    color: white;
     font-size: 20px;
 }
 
@@ -119,7 +119,7 @@ main{
 }
 
 .row {
-    width: 100%;
+    width: 99%;
     height: auto;
     margin: 0px 20px 0px 10px;
 }
@@ -152,7 +152,7 @@ main{
     -webkit-transition: -webkit-transform 0.8s ease-in-out;
     transition: transform 0.8s ease-in-out;
 }
-      
+
 .row .container-img:hover img{
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -194,7 +194,7 @@ main section.mais-vendida-main .container-mais-vendidas img{
     padding-bottom: 20px;
     color: white;
 
-    
+
 }
 
 /* ---------- footer --------------------------- */
@@ -205,5 +205,6 @@ footer{
     text-align: center;
     color: white;
     padding-top: 50px;
+    padding-bottom: 15px;
 
 }

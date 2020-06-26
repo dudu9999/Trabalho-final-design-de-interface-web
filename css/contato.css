@@ -21,7 +21,7 @@ header{
 
 .img-logo{
     width: 100px;
-    height: 100px; 
+    height: 100px;
     padding-left: 35px;
 }
 
@@ -126,8 +126,8 @@ li{
 }
 
 a{
-    text-decoration: none; 
-    color: white; 
+    text-decoration: none;
+    color: white;
     font-size: 20px;
 }
 
@@ -161,8 +161,8 @@ main section.mais-vendida-main .container-mais-vendidas img{
     text-align: center;
     padding-bottom: 20px;
     color: white;
-    
-    
+
+
 }
 
 /* ---- Footer ---- */
@@ -172,4 +172,5 @@ footer{
     text-align: center;
     color: white;
     padding-top: 50px;
+    padding-bottom: 15px;
 }

@@ -34,22 +34,51 @@
                 <img src="../img/Pizzas/4 - Pizza Calabresa.png" alt="Logo da Pizzaria">
             </section>
 
-            <section class="container-login">
-              <h1 class="texto-text">Login</h1>
-              <h2 class="texto-text">Ai ai aii que pizza boa</h2>
-
-              <p>Date: <input type="text" id="datepicker"></p>
-              
-            </section>
-
             <section class="container-singup">
+
+              <form class="form-singup" action="index.html" method="post">
+
                 <h1 class="texto-text">Criar Conta</h1>
                 <h2 class="texto-text">Ai ai aii que pizza boa</h2>
 
-                <p>Date: <input type="text" id="datepicker"></p>
+                <p>Nome</p>
+                <input type="text" id="text-nome">
+
+                <p>Telefone</p>
+                <input type="phone" id="text-telefone"><br>
+                <span>
+                  <input type="checkbox" name="whatsapp" value="whatsapp" id="whatsapp">Whatsapp
+                </span>
+                <p>Date</p>
+                <input type="text" id="datepicker">
+
+                <p>E-mail</p>
+                <input type="emai" id="text-email">
+
+                <p>Senha</p>
+                <input type="password" id="text-password">
+
+                <input type="button" name="Cadastro" value="Cadastrar" id="form-singup">
+              </form>
 
             </section>
 
+            <section class="container-login">
+
+              <h1 class="texto-text">Login</h1>
+              <h2 class="texto-text">Ai ai aii que pizza boa</h2>
+
+              <form class="form-login" action="index.html" method="post">
+                <p>E-mail</p>
+                <input type="emai" id="text-email">
+
+                <p>Senha</p>
+                <input type="password" id="text-password">
+
+                <input type="button" name="Entrar" value="Entrar" id="form-login">
+              </form>
+
+            </section>
 
             <section class="mais-vendida-main">
                 <h1 class="mais-vendida-text">Pizza</h1>
