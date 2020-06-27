@@ -47,6 +47,7 @@ li{
     height: 100px;
     padding-left: 35px;
 }
+
 a{
     text-decoration: none;
     color: white;
@@ -136,6 +137,15 @@ main{
     width: 30%;
     height: auto;
     margin: -1rem 24rem 0rem 27rem;
+}
+
+.texto-security{
+    padding: 20px 0 20px 0;
+}
+
+.img-security{
+    padding: 20px 0px 20px 100px;
+    width: 40%;
 }
 
 /* --------- Mais vendido ---------------------------------- */
