@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="../css/login.css">
     <link rel="shortcut icon" href="../img/Logos/favicon.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> -->
 
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -16,7 +15,7 @@
 <body>
     <div class="body">
         <header>
-            <a href="../Index.html"><img class="img-logo" src="../img/Logos/favicon.png" alt="Logo da Pizzaria"></a>
+            <a href="../Index.html"><img class="img-logo" src="../img/Logos/favicon.png" alt=""></a>
             <nav>
                 <ul>
                     <li><a href="../Index.html"><strong>Home</strong></a></li>
@@ -35,8 +34,7 @@
             </section>
 
             <section class="container-singup">
-
-              <form class="form-singup" action="index.html" method="post">
+              <form class="form-singup" action="./login.html" method="get" id="Cadastro-form">
 
                 <h1 class="texto-text">Criar Conta</h1>
 
@@ -44,7 +42,7 @@
                 <input type="text" id="text-nome">
 
                 <p>Telefone</p>
-                <input type="phone" id="text-telefone"><br>
+                <input type="tel" id="text-telefone"><br>
                 <span>
                   <input type="checkbox" name="whatsapp" value="whatsapp" id="whatsapp">Whatsapp
                 </span>
@@ -56,13 +54,13 @@
                   Link: https://jqueryui.com/datepicker/
                 -->
                 <p>E-mail</p>
-                <input type="emai" id="text-email">
+                <input type="email" id="text-email-singup">
 
                 <p>Senha</p>
-                <input type="password" id="text-password">
+                <input type="password" id="text-password-singup">
 
-                <input type="button" name="Cadastro" value="Cadastrar" id="form-singup">
               </form>
+              <button type="submit" id="form-singup" form="Cadastro-form" name="Cadastro" value="Cadastrar">Cadastrar</button>
 
             </section>
 
@@ -70,15 +68,14 @@
 
               <h1 class="texto-text">Login</h1>
 
-              <form class="form-login" action="index.html" method="post">
-                <p>E-mail</p>
-                <input type="emai" id="text-email">
+              <form class="form-login" action="./login.html" method="get" id="Login-form">
+                <p>E-mail</p> <input type="email" id="text-email-login">
 
-                <p>Senha</p>
-                <input type="password" id="text-password">
-
-                <input type="button" name="Entrar" value="Entrar" id="form-login">
+                <p>Senha</p> <input type="password" id="text-password-login">
               </form>
+
+              <button type="submit" id="form-login" form="Login-form" name="Entrar" value="Entrar">Entrar</button>
+
 
               <h2 class="texto-security">Seus dados protegidos de acordo<br> com o protocolo de segurança SSL</h2>
               <img class="img-security" src="../img/Logos/ssl.svg" alt="imagem do certificado de segurança">
